@@ -1,2 +1,2 @@
-# Curso-30JS-Emoji-Animado
-Projeto Emoji Animado do #30ProjetosJavaScript
+# Curso-30JS-Monstro-Animado
+Projeto Monstro Animado do #30ProjetosJavaScript
