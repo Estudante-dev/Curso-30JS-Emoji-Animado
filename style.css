@@ -2,6 +2,25 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* Exibe uma mensagem para o usuário */
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  body::before {
+    content: "Por favor, utilize um computador para visualizar esta página. O personagem move os olhos com base no movimento do mouse";
+    color: #fff;
+    font-size: 24px;
+  }
+}
+
+
+
 body{
     background-color: #333;
 }
@@ -28,7 +47,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 .olho:nth-child(1){
     left: 40px;
@@ -61,3 +79,4 @@ body{
     border: 5px solid #000;
     border-color: transparent transparent #000 transparent;
 }
+
